@@ -1,0 +1,5 @@
+Should use one writting style, like: camel case, etc...
+Image shouldn't take fixed width and height, one of the fixed and the other auto.
+Take into consideration your own style opinion.
+Selector must take only one class attribute with many values.
+Properties should sorted alphabetical.

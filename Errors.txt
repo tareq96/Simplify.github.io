@@ -1,0 +1,7 @@
+width of the header:	 margin:0
+scrolling of the header: don't use vh use px
+divs side by side:       float:left;
+centralize: margin:auto & max-width
+space between divs to avoid errors while scrolling
+using rem instead of vw
+shouldn't assign value to the container height: auto

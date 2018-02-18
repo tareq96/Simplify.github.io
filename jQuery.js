@@ -118,7 +118,7 @@ function getComments(postId) {
             result += ("<b>Name:    </b>" + comments[i].name + "<br>");
             result += ("<b>Email:   </b>" + comments[i].email + "<br>");
             result += ("<b>Body:    </b>" + comments[i].body + "<br>");
-            result += "<p>______________________________________________________________________________________</p>";
+            result += "<p>_________________________________________________</p>";
         }
     }
     return result;
@@ -170,7 +170,7 @@ function details_cont(img, id, header, details, name, email, street, suite, city
     this.comments = "<h3>Comments</h3>";
     this.comment = "<p>" + comment + "</p>";
     this.close_div3 = "</div>";
-    this.button = "<button id=\"goBack\" class=\"pull-left Back\">Back</button>";
+    this.button = "<button id=\"goBack\" class=\"pull-left back\">Back</button>";
     this.closing_section = "</section>";
     this.getString = function() {
         return this.opening_section + " " + this.open_div1 + this.img + this.header + this.details +

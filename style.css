@@ -422,6 +422,13 @@ p.copy-left{
 p.copy-right{
     margin-right: 10%;
 }
+.back{
+    padding: 10px 20px;
+    background-color: #3A5997;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
 @media only screen and (max-width: 768px){
     .margin0mobile{
         margin: 0;
